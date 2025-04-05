@@ -40,7 +40,7 @@ var lyr__2 = new ol.layer.Vector({
                 popuplayertitle: 'Область затопления',
                 interactive: true,
                 title: '<img src="styles/legend/_2.png" /> Область затопления',
-                opacity: 0.5
+                opacity: 0.3
             });
 var format__3 = new ol.format.GeoJSON();
 var features__3 = format__3.readFeatures(json__3, 
