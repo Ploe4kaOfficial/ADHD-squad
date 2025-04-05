@@ -38,7 +38,7 @@ var lyr__2 = new ol.layer.Vector({
                 source:jsonSource__2, 
                 style: style__2,
                 popuplayertitle: 'Область затопления',
-                'opacity': 0.500000,
+                opacity: 0.500000,
                 interactive: true,
                 title: '<img src="styles/legend/_2.png" /> Область затопления'
             });
