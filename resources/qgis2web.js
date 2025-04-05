@@ -2,7 +2,7 @@
 var map = new ol.Map({
     target: 'map',
     renderer: 'canvas',
-    layers: 'layersList',
+    layers: layersList,
     view: new ol.View({
         extent: [6427009.533423, 6603580.698342, 6623050.077748, 6716885.780875], maxZoom: 28, minZoom: 1
     })
