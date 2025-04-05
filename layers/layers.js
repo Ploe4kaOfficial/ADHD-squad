@@ -38,7 +38,7 @@ var lyr__2 = new ol.layer.Vector({
                 source:jsonSource__2, 
                 style: style__2, "opacity: 0.8",
                 popuplayertitle: 'Область затопления',
-                interactive: false,
+                interactive: true,
                 title: '<img src="styles/legend/_2.png" /> Область затопления'
             });
 var format__3 = new ol.format.GeoJSON();
