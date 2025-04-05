@@ -36,10 +36,11 @@ jsonSource__2.addFeatures(features__2);
 var lyr__2 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource__2, 
-                style: style__2, opacity: 0.8,
+                style: style__2,
                 popuplayertitle: 'Область затопления',
                 interactive: true,
-                title: '<img src="styles/legend/_2.png" /> Область затопления'
+                title: '<img src="styles/legend/_2.png" /> Область затопления',
+                opacity: 0.5
             });
 var format__3 = new ol.format.GeoJSON();
 var features__3 = format__3.readFeatures(json__3, 
