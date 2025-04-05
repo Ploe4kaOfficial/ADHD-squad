@@ -6,7 +6,9 @@ var wms_layers = [];
             'opacity': 1.000000,
             
             
+            source: new ol.source.XYZ({
 
+            })
         });
 var format_3_1 = new ol.format.GeoJSON();
 var features_3_1 = format_3_1.readFeatures(json_3_1, 
