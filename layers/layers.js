@@ -3,7 +3,7 @@ var wms_layers = [];
 
         var lyr_OSMStandard_0 = new ol.layer.Tile({
             'title': 'OSM Standard',
-            'opacity': 0.300000,
+            'opacity': 1.000000,
             
             
             source: new ol.source.XYZ({
@@ -38,6 +38,7 @@ var lyr__2 = new ol.layer.Vector({
                 source:jsonSource__2, 
                 style: style__2,
                 popuplayertitle: 'Область затопления',
+                'opacity': 0.500000,
                 interactive: true,
                 title: '<img src="styles/legend/_2.png" /> Область затопления'
             });
