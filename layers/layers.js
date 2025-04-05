@@ -3,11 +3,11 @@ var wms_layers = [];
 
         var lyr_OSMStandard_0 = new ol.layer.Tile({
             'title': 'OSM Standard',
-            'opacity': 0.500000,
+            'opacity': 1.000000,
             
             
             source: new ol.source.XYZ({
-            attributions: ' &nbsp &middot; <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors, CC-BY-SA</a>',
+            attributions: '',
                 url: 'http://tile.openstreetmap.org/{z}/{x}/{y}.png'
             })
         });
