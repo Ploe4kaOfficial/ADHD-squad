@@ -21,7 +21,7 @@ jsonSource__1.addFeatures(features__1);
 var lyr__1 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource__1, 
-                style: style__1,
+                style: style__1, "opacity: 0.8",
                 popuplayertitle: 'Область затопления — Зона затопления',
                 interactive: true,
                 title: '<img src="styles/legend/_1.png" /> Область затопления — Зона затопления'
@@ -51,7 +51,7 @@ jsonSource__3.addFeatures(features__3);
 var lyr__3 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource__3, 
-                style: style__3, "opacity: 0.8"
+                style: style__3,
                 popuplayertitle: 'дома под водой',
                 interactive: true,
                 title: '<img src="styles/legend/_3.png" /> дома под водой'
