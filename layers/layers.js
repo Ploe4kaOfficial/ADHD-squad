@@ -51,7 +51,7 @@ jsonSource__3.addFeatures(features__3);
 var lyr__3 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource__3, 
-                style: style__3,
+                style: style__3, "opacity: 0.8"
                 popuplayertitle: 'дома под водой',
                 interactive: true,
                 title: '<img src="styles/legend/_3.png" /> дома под водой'
