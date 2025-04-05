@@ -3,7 +3,7 @@ var wms_layers = [];
 
         var lyr_OSMStandard_0 = new ol.layer.Tile({
             'title': 'OSM Standard',
-            'opacity': 1.000000,
+            'opacity': 0.500000,
             
             
             source: new ol.source.XYZ({
